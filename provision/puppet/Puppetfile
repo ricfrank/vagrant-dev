@@ -1,0 +1,23 @@
+# Puppetfile
+forge "http://forge.puppetlabs.com"
+
+mod 'puppetlabs/stdlib',
+  :git => 'https://github.com/puphpet/puppetlabs-stdlib.git'
+
+mod 'puppetlabs/iptables', 
+  :git => 'https://github.com/puphpet/puppet-iptables.git'
+
+mod 'puppetlabs/apache',
+  :git => 'https://github.com/puphpet/puppetlabs-apache.git'
+
+mod 'puppetlabs/php',
+  :git => 'https://github.com/puphpet/puppet-php.git'
+
+mod 'puppetlabs/composer',
+  :git => 'https://github.com/puphpet/puppet-composer.git'
+
+mod 'puppetlabs/mysql',
+  :git => 'https://github.com/puphpet/puppetlabs-mysql.git'
+
+mod 'puppetlabs/java', 
+  :git => 'git://github.com/puppetlabs/puppetlabs-java.git'

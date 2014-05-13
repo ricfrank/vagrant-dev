@@ -1,0 +1,6 @@
+.vagrant
+provision/puppet/modules/*
+provision/puppet/modules-contrib/*
+provision/puppet/Puppetfile.lock
+provision/puppet/.librarian
+provision/puppet/.tmp
