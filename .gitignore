@@ -1,6 +1,11 @@
-.vagrant
 provision/puppet/modules/*
 provision/puppet/modules-contrib/*
+
+!provision/puppet/modules/.gitkeep
+!provision/puppet/modules-contrib/.gitkeep
+
 provision/puppet/Puppetfile.lock
+
+.vagrant
 provision/puppet/.librarian
 provision/puppet/.tmp
